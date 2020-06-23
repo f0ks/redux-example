@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import NotificationsSwitch from "./components/notifications-switch";
 import NotificationsSelect from "./components/user-settings";
+import Title from "./components/title";
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
 
       <NotificationsSelect/>
 
+      <hr />
+
+      <Title/>
 
     </div>
   );
